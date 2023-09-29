@@ -1,0 +1,84 @@
+/* styles.css */
+/* Estilos para pantallas más pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        max-width: 100%;
+    }
+    /* Otros estilos de adaptación para elementos específicos */
+}
+/* Aumentar el tamaño de fuente y el espaciado en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .chat-input {
+        padding: 10px;
+    }
+    /* Otros ajustes de estilo */
+}
+/* Aumentar el tamaño del botón "Enviar" en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    #send-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.chat-container 
+{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.chat-header 
+{
+    background-color: #0099ff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages 
+{
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.chat-input 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+input[type="text"] 
+{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#send-button 
+{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
